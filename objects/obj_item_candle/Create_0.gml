@@ -1,5 +1,5 @@
 event_inherited();
 radius = global.cfg.items.candle.radius;
-power = global.cfg.items.candle.power;
+heat_power = global.cfg.items.candle.heat_power;
 active = true;
 can_drag = true;
