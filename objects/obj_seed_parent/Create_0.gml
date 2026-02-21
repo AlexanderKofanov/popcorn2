@@ -1,3 +1,4 @@
+event_inherited();
 spawn_y = y - 24;
 vy = 0;
 state = 0;
