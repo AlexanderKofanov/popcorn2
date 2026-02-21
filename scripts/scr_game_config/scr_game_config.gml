@@ -21,8 +21,8 @@ function scr_game_config() {
 			income_mult: 0.3
 		},
 		items: {
-			match: {price: 120, power: 35, radius: 130},
-			candle: {price: 220, power: 22, radius: 110}
+			match: {price: 120, heat_power: 35, radius: 130},
+			candle: {price: 220, heat_power: 22, radius: 110}
 		},
 		popcorn_types: {
 			basic: {cook: 7.5, value: 2, weight: 1.0},
