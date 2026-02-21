@@ -1,0 +1,12 @@
+if (global.prestige_gain < 1) exit;
+global.prestige_points += floor(global.prestige_gain);
+global.prestige_gain = 0;
+global.money = 0;
+global.temp = global.cfg.temp.base;
+global.temp_upgrades = 0;
+global.seed_rate_upgrades = 0;
+with (obj_seed_parent) instance_destroy();
+with (obj_popcorn) instance_destroy();
+with (obj_item_match) instance_destroy();
+with (obj_item_candle) instance_destroy();
+global.has_match = false;

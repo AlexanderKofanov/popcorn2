@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_heat_power",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_heat_power",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy"
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0"
+}

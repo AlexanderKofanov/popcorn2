@@ -1,8 +1,20 @@
-//surf_field = surface_create(1100, 1600)
+depth = -20000;
+global.cfg = scr_game_config();
 
-depth = 100
-color = c_gray
+global.money = 20;
+global.temp = global.cfg.temp.base;
+global.max_temp = global.cfg.temp.max;
+global.temp_upgrades = 0;
+global.seed_rate_upgrades = 0;
+global.seed_spawn_alarm = room_speed * global.cfg.seed_spawn_s;
 
-alarm[0] = 1
+global.special_seed_chance = global.cfg.special_seed_chance;
+global.collect_radius = global.cfg.popcorn_hover_radius;
+global.prestige_gain = 0;
+global.prestige_points = 0;
+global.hands_unlocked = false;
+global.hand_income_mult = global.cfg.hand.income_mult;
+global.income_mult = 1;
+global.has_match = false;
 
-//instance_create_depth( room_width / 2, -60, depth, obj_next)
+hand_timer = global.cfg.hand.base_interval;
